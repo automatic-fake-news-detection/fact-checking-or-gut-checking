@@ -3,7 +3,7 @@
 
 Ian Kelk, Wee Yi Lee, Jonathan Bourne, and Benjamin Basseri 
  <br>
-1. Make sure to download the dataset (https://www.dropbox.com/s/3v5oy3eddg3506j/multi_fc_publicdata.zip?dl=0), and place in the same directory as code-acl. 
+1. Make sure to unzip sorted.uk.word.unigrams.zip and put the unzip file, sorted.uk.word.unigrams., under bias folder. 
 2. install a python environment with the required packages (requirements.txt) 
 3. The code ran under Google colab, if you are not running from Google Colab, make sure you remove the mounting cell.
 4. Ensure that you point to the right system path directory in main.ipnyb. analyze_snes.ipynb and analyze_pomt.ipnyb. For example, in Google Colab: 
