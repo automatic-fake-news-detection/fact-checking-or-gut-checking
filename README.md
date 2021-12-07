@@ -19,7 +19,7 @@ Ian Kelk, Wee Yi Lee, Jonathan Bourne, and Benjamin Basseri
 	- datasets = ['pomt']
 	- inputtypes = ['CLAIM_AND_EVIDENCE', 'EVIDENCE_ONLY', 'CLAIM_ONLY']
 
-6. After running main, create the table and plots based on your results by running: analyze_snes.ipynb for Snopes dataset and analyze_pomt.ipnyb for PolitiFact dataset
+6. After running main.ipynb, create the table and plots based on your results by running: analyze_snes.ipynb for Snopes dataset and analyze_pomt.ipnyb for PolitiFact dataset
 7. To create the table and plots, if you don't have the full results, you will need to modify the below variables in analyze_snes.ipynb and analyze_pomt.ipnyb in order to run them. 
 	- steps = ['none', 'neg', 'stop', 'pos', 'stem', 'all', 'pos-neg', 'pos-stop','formal', 'informal', 'pos-neg-stop', 'EMOINT', 'EMO_LEXI']
 	- steps_dic = {'none':'none', 'neg':'neg', 'stop':'stop', 'pos':'pos', 'stem':'stem', 'all':'all', 
