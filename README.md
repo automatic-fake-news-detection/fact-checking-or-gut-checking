@@ -3,10 +3,10 @@
 
 Ian Kelk, Wee Yi Lee, Jonathan Bourne, and Benjamin Basseri 
  <br>
-1. Make sure to unzip sorted.uk.word.unigrams.zip and put the unzip file, sorted.uk.word.unigrams., under bias folder. 
+1. Make sure to unzip sorted.uk.word.unigrams.zip and put the unzipped file, sorted.uk.word.unigrams., under bias folder. 
 2. install a python environment with the required packages (requirements.txt) 
-3. The code ran under Google colab, if you are not running from Google Colab, make sure you remove the mounting cell.
-4. Ensure that you point to the right system path directory in main.ipnyb. analyze_snes.ipynb and analyze_pomt.ipnyb. For example, in Google Colab: 
+3. The code ran under Google colab, if you are not running from Google Colab, make sure you remove the Google Drive mounting cell.
+4. Please ensure you point to the right system path directory in main.ipnyb. analyze_snes.ipynb and analyze_pomt.ipnyb. For example, in Google Colab: 
 	- os.chdir('/content/drive/MyDrive/NLPProject/bias' )
 	- sys.path.append('/content/drive/MyDrive/NLPProject')
 	- sys.path.append('/content/drive/MyDrive/NLPProject/bias/')
