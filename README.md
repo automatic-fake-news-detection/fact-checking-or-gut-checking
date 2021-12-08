@@ -1,18 +1,18 @@
 
 # Automatic Fake News Detection: Automatic Fake News Detection: Are current models “doing their own research” using search engines?
 
-Ian Kelk, Wee Yi Lee, and Benjamin Basseri 
+Ian Kelk, Wee Yi (Jack) Lee, and Benjamin Basseri 
  <br>
-1. Make sure to unzip sorted.uk.word.unigrams.zip and put the unzipped file, sorted.uk.word.unigrams., under bias folder. 
-3. The code ran under Google colab, if you are not running from Google Colab, make sure you remove the Google Drive mounting cell.
-4. Please ensure you point to the right system path directory in main.ipnyb. analyze_snes.ipynb and analyze_pomt.ipnyb. For example, in Google Colab: 
+
+1. The code ran under Google colab, if you are not running from Google Colab, make sure you remove the Google Drive mounting cell.
+2. Please ensure you point to the right system path directory in main.ipnyb. analyze_snes.ipynb and analyze_pomt.ipnyb. For example, in Google Colab: 
 	- os.chdir('/content/drive/MyDrive/NLPProject/bias' )
 	- sys.path.append('/content/drive/MyDrive/NLPProject')
 	- sys.path.append('/content/drive/MyDrive/NLPProject/bias/')
 	
-4. When you run the code for the first time, it might take some time to download pretrained language models.
-6. Run main.ipynb to generate all the results. When run in Google Colab Pro+, it will take about 70 - 100 hours to complete.
-6. if you wish to select certain setup, you can change the below variables. For example:
+3. When you run the code for the first time, it might take some time to download pretrained language models.
+4. Run main.ipynb to generate all the results. When run in Google Colab Pro+, it will take about 70 - 100 hours to complete.
+5. if you wish to select certain setup, you can change the below variables. For example:
 	- steps = [['EMO_LEXI'], ['EMO_INT']]
 	- modes = ['bert']
 	- datasets = ['pomt']
@@ -27,4 +27,4 @@ Ian Kelk, Wee Yi Lee, and Benjamin Basseri
 	- inputtypes = ["CLAIM_ONLY", "EVIDENCE_ONLY", "CLAIM_AND_EVIDENCE"]
 	- inputtypes_dic = {"CLAIM_ONLY": "Claim", "EVIDENCE_ONLY": "Evidence", "CLAIM_AND_EVIDENCE": "Claim+Evidence"}
 
-
+8. If you wish go generate neutralization dataset, please follow the instructions in this github: https://github.com/weeyilee/neutralization
