@@ -7,8 +7,8 @@ Ian Kelk, Wee Yi (Jack) Lee, and Benjamin Basseri
 1. The code ran under Google colab, if you are not running from Google Colab, make sure you remove the Google Drive mounting cell.
 2. Please ensure you point to the right system path directory in main.ipnyb. analyze_snes.ipynb and analyze_pomt.ipnyb. For example, in Google Colab: 
 	- os.chdir('/content/drive/MyDrive/NLPProject/code/bias' )
-	- sys.path.append('/content/drive/MyDrive/code/NLPProject')
-	- sys.path.append('/content/drive/MyDrive/code/NLPProject/bias/')
+	- sys.path.append('/content/drive/MyDrive/NLPProject/code')
+	- sys.path.append('/content/drive/MyDrive/code/NLPProject/code/bias/')
 	
 3. When you run the code for the first time, it might take some time to download pretrained language models.
 4. Run main.ipynb to generate all the results. When run in Google Colab Pro+, it will take about 80 - 100 hours to complete.
