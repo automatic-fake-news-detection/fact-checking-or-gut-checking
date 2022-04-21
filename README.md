@@ -27,4 +27,4 @@ Ian Kelk, Wee Yi (Jack) Lee, and Benjamin Basseri
 	- inputtypes = ["CLAIM_ONLY", "EVIDENCE_ONLY", "CLAIM_AND_EVIDENCE"]
 	- inputtypes_dic = {"CLAIM_ONLY": "Claim", "EVIDENCE_ONLY": "Evidence", "CLAIM_AND_EVIDENCE": "Claim+Evidence"}
 
-8. If you wish go generate neutralization dataset, please follow the instructions in this github: https://github.com/weeyilee/neutralization
+8. If you wish go generate neutralization dataset, please follow the instructions in this github: https://github.com/automatic-fake-news-detection/neutralization.   
